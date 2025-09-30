@@ -1,14 +1,55 @@
 :root
 {
+    --margin-null: 0;
+}
 
+body
+{
+    margin: var(--margin-null);
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    margin: var(--margin-null);
 }
 
 .header-container
 {
+    background-color: #0073b7;
+    padding-top: 2rem;
+    border-bottom: 1px solid #0067a3;
+}
 
+.header-display
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5rem;
 }
 
 .header-site-logo
+{
+    
+}
+
+.header-navigation-menu
+{
+    list-style-type: none;
+}
+
+.header-navigation-menu_item
+{
+    display: inline;
+    padding: 32px 15px;
+}
+
+.banner
+{
+    background-color: #006dad;
+}
+
+.homepage-banner_title
 {
     
 }
