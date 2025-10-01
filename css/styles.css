@@ -58,18 +58,24 @@ h1,h2,h3,h4,h5,h6
 {
     padding: 0 2rem;
     padding-bottom: 20px;
+    color: #ffffff;
+    max-width: 50%;
 }
 
 .search-form
 {
     width: 50%;
     padding: 0 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
 }
 
 .search-form_search
 {
     width: 100%;
     height: 3rem;
+    font-size: 1rem;
 }
 
 #homepage-pysearch:hover
@@ -79,5 +85,17 @@ h1,h2,h3,h4,h5,h6
 
 .search-button
 {
+    position: absolute;
+    right: 2%;
+    top: 9%;
+    height: 2.7rem;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
 
+.search-button_loupe
+{
+    width: 100%;
+    height: 100%;
 }
