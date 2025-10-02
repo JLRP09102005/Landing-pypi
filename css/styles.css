@@ -143,14 +143,19 @@ a
 /* FIN DEL STATISTICS BAR */
 
 /* INICIO DEL ABOUT PY */
-
 .about-py
 {
     display: flex;
     flex-direction: row;
-    padding: 4rem 0;
+    padding: 3.5rem 0;
     justify-content: center;
     align-items: center;
+}
+
+.about-py_logo
+{
+    padding-right: 50px;
+    padding-top: 10px;
 }
 
 .about-py_text
@@ -162,5 +167,36 @@ a
 {
     color: #006dad;
 }
+/* FIN DEL ABOUT PY */
 
-/* INICIO DEL ABOUT PY */
+/* INICIO DEL FOOTER */
+.footer
+{
+    background-color: #0073b7;
+    padding: 3.5rem 0;
+}
+
+.footer_logo
+{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.footer_menus
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_menus_item
+{
+    
+}
+
+.footer-navigation-menu
+{
+    list-style-type: none;
+}
+/* FIN DEL FOOTER */
