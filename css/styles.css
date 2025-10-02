@@ -126,6 +126,9 @@ a
 /* INICIO DEL STATISTICS BAR */
 .statistics-bar
 {
+    background-color: #ececec;
+    border-bottom: 1px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
     display: flex;
     flex-direction: row;
     gap: 3rem;
@@ -138,3 +141,26 @@ a
     font-size: 1.2rem;
 }
 /* FIN DEL STATISTICS BAR */
+
+/* INICIO DEL ABOUT PY */
+
+.about-py
+{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-py_text
+{
+    max-width: 30rem;
+}
+
+.about-py a
+{
+    color: #006dad;
+}
+
+/* INICIO DEL ABOUT PY */
