@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Source Sans;
+    src: url(/fonts/Source-sans/SourceSans3-Regular.ttf);
+}
+
 :root
 {
     --margin-null: 0;
@@ -7,6 +12,7 @@ body
 {
     margin: var(--margin-null);
     line-height: 1.4;
+    font-family: Source Sans, Helvetica, arial, sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -23,8 +29,9 @@ a
 .header-container
 {
     background-color: #0073b7;
-    padding: 1rem 0;
+    padding: 0.7rem 0;
     border-bottom: 1px solid #0067a3;
+    align-items: center;
 }
 
 .header-display
@@ -32,24 +39,32 @@ a
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 25rem;
+    padding: 0 30px;
+    margin-left: 20%;
+    max-width: 1150px;
 }
 
 .header-site-logo
 {
-    
+    padding-top: 10px;
 }
 
 .header-navigation-menu
 {
-    list-style-type: none;
+    margin-top: 2.1%;
+}
+
+.header-navigation-menu_list
+{
+    padding: 0;
+    margin: 0;
 }
 
 .header-navigation-menu_item
 {
     color: #ffffff;
     display: inline;
-    padding: 32px 15px;
+    padding: 0 15px;
 }
 
 .header-navigation-menu_item_hyperlink
@@ -121,6 +136,7 @@ a
 {
     color: #ffffff;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 /* FIN DEL BANNER */
 
@@ -163,6 +179,19 @@ a
 .about-py_text
 {
     max-width: 30rem;
+}
+
+.about-py_text p
+{
+    padding-bottom: 15px;
+    margin: 0px;
+}
+
+.about-py_text_paragraph
+{
+    color: #606060;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .about-py a
