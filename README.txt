@@ -23,7 +23,7 @@ El propósito de este proyecto es practicar y mejorar mis habilidades en:
 
 ## 🚀 Cómo Ver el Proyecto
 
-Puedes ver el proyecto en vivo aquí: 
+Puedes ver el proyecto en vivo aquí: https://jlrp09102005.github.io/Landing-pypi/
 
 O clonarlo localmente:
 ```bash
